@@ -10,7 +10,7 @@ I used **Claude Code** (Claude 4.5 Sonnet) throughout this challenge for:
 
 ## Code Implementation
 - Generating boilerplate code (build scripts, templates, SCSS structure)
-- Writing initial versions of build.js, Handlebars templates, and JavaScript
+- Writing initial versions of build.js, Handlebars templates, and JavaScript (Using my personal projects as first reference)
 
 ## My Decisions & Work
 All architectural and technical decisions were mine:
