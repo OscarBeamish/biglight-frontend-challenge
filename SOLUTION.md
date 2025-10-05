@@ -95,7 +95,7 @@ Some blocks have 1 CTA, some have 3. Some have slideshows, some don't. Flat stru
 3. Joins the three datasets:
 4. Handlebars renders nested structure to HTML
 5. SCSS compiles to CSS
-6. Static files deploy to host (or SFCC)
+6. Static files deploy to host
 
 ### Where It Lives
 
