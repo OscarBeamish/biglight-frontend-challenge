@@ -1,0 +1,79 @@
+[
+  {
+    "cta_id": "cta_1",
+    "block_id": "block_1",
+    "text": "Girls' New In",
+    "link": "/girls",
+    "order": 1
+  },
+  {
+    "cta_id": "cta_2",
+    "block_id": "block_1",
+    "text": "Boys' New In",
+    "link": "/boys",
+    "order": 2
+  },
+  {
+    "cta_id": "cta_3",
+    "block_id": "block_1",
+    "text": "Kids' New Season Edit",
+    "link": "/kids-season",
+    "order": 3
+  },
+  {
+    "cta_id": "cta_4",
+    "block_id": "block_2",
+    "text": "New Home Edit",
+    "link": "/home",
+    "order": 1
+  },
+  {
+    "cta_id": "cta_5",
+    "block_id": "block_3",
+    "text": "Shop Now",
+    "link": "/sale",
+    "order": 1
+  },
+  {
+    "cta_id": "cta_6",
+    "block_id": "block_4",
+    "text": "Shop Dresses",
+    "link": "/dresses",
+    "order": 1
+  },
+  {
+    "cta_id": "cta_7",
+    "block_id": "block_4",
+    "text": "View All",
+    "link": "/womens",
+    "order": 2
+  },
+  {
+    "cta_id": "cta_8",
+    "block_id": "block_5",
+    "text": "Men's Clothing",
+    "link": "/mens",
+    "order": 1
+  },
+  {
+    "cta_id": "cta_9",
+    "block_id": "block_6",
+    "text": "Boys",
+    "link": "/boys-new",
+    "order": 1
+  },
+  {
+    "cta_id": "cta_10",
+    "block_id": "block_6",
+    "text": "Girls",
+    "link": "/girls-new",
+    "order": 2
+  },
+  {
+    "cta_id": "cta_11",
+    "block_id": "block_7",
+    "text": "Sale",
+    "link": "/sale",
+    "order": 1
+  }
+]
