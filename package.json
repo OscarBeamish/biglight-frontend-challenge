@@ -1,0 +1,21 @@
+{
+  "name": "biglight-landing-page-system",
+  "version": "1.0.0",
+  "description": "Modular landing page content management system using Google Sheets",
+  "main": "src/scripts/build.js",
+  "scripts": {
+    "build": "node src/scripts/build.js",
+    "build:css": "sass src/styles/main.scss dist/styles.css --style=compressed",
+    "dev": "npm run build && npx live-server dist --port=8080"
+  },
+  "keywords": ["landing-page", "cms", "google-sheets", "modular"],
+  "author": "Oscar Beamish",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
