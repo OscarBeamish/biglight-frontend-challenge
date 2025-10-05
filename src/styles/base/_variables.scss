@@ -1,0 +1,27 @@
+// Colours
+$color-white: #fff;
+$color-black: #000;
+$color-overlay-bg: rgba(0, 0, 0, 0.75);
+$color-cta-bg: rgba(255, 255, 255, 0.95);
+
+// Typography
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-base: 16px;
+$font-size-large: 1.25rem;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Spacing
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-medium: 0.3s ease;
+
+// Breakpoints
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

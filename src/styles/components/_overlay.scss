@@ -1,0 +1,45 @@
+// Overlay component
+.overlay {
+  position: absolute;
+  background: $color-overlay-bg;
+  color: $color-white;
+  padding: $spacing-md $spacing-lg;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-large;
+  pointer-events: none;
+  z-index: 10;
+
+  // Position variations
+  &--top-left {
+    top: $spacing-md;
+    left: $spacing-md;
+  }
+
+  &--top-right {
+    top: $spacing-md;
+    right: $spacing-md;
+  }
+
+  &--bottom-left {
+    bottom: $spacing-md;
+    left: $spacing-md;
+  }
+
+  &--bottom-right {
+    bottom: $spacing-md;
+    right: $spacing-md;
+  }
+
+  &--centre {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2rem;
+    padding: $spacing-lg $spacing-xl;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 3rem;
+    }
+  }
+}

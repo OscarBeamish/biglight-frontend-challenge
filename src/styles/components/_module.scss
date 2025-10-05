@@ -1,0 +1,40 @@
+// Module component
+.module {
+  width: 100%;
+
+  &__container {
+    display: grid;
+    gap: 0;
+  }
+
+  // Layout variations
+  &--full-width {
+    .module__container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &--two-column {
+    .module__container {
+      grid-template-columns: 1fr;
+
+      @media (min-width: $breakpoint-tablet) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+  &--three-column {
+    .module__container {
+      grid-template-columns: 1fr;
+
+      @media (min-width: $breakpoint-tablet) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (min-width: $breakpoint-desktop) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
