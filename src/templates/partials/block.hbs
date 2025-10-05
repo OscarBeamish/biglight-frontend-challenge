@@ -1,0 +1,41 @@
+<div class="block" data-block-id="{{block_id}}">
+  <div class="block__image-wrapper">
+    {{#if has_slideshow}}
+      {{!-- Slideshow --}}
+      <img
+        src="{{desktop_image}}"
+        alt="{{alt_text}}"
+        class="block__image block__image--slideshow"
+        data-slideshow="{{json slideshow_images}}"
+      >
+    {{else}}
+      {{!-- Single image with optional zoom --}}
+      <img
+        src="{{desktop_image}}"
+        alt="{{alt_text}}"
+        class="block__image {{#if has_zoom}}block__image--zoom{{/if}}"
+      >
+    {{/if}}
+
+    {{!-- Text overlay --}}
+    {{#if overlay_text}}
+      <div class="overlay overlay--{{overlay_position}}">
+        {{overlay_text}}
+      </div>
+    {{/if}}
+
+    {{!-- CTAs --}}
+    {{#if ctas}}
+      <div class="block__ctas">
+        {{#each ctas}}
+          <a href="{{link}}" class="block__cta">{{text}}</a>
+        {{/each}}
+      </div>
+    {{/if}}
+
+    {{!-- Terms and conditions --}}
+    {{#if terms}}
+      <p class="block__terms">{{terms}}</p>
+    {{/if}}
+  </div>
+</div>
